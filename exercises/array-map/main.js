@@ -9,3 +9,15 @@ var languages = [
   'PHP Hypertext Preprocessor',
   'Structured Query Language'
 ];
+
+var double = numbers.map(value => value * 2);
+console.log("double = ",double);
+
+var prices = numbers.map(value => "$" + value.toFixed(2));
+console.log("prices = ", prices);
+
+var upperCased = languages.map(word => word.toUpperCase());
+console.log("upperCased = ",upperCased);
+
+var firstLetters = languages.map(word => word.charAt(0));
+console.log("firstLetters = ",firstLetters);
